@@ -127,7 +127,7 @@ function buildPlaylistGrid() {
       <div class="playlist-card-inner glass-card hover-tilt" data-glow-color="${song.glow}" data-track-index="${index}">
         <div class="card-face card-front">
           <div class="album-art-wrapper">
-            <div class="album-art ${song.art}"></div>
+            <img class="album-art" src="${song.art}" alt="${song.title}">
             <button class="play-btn-overlay" aria-label="Play ${song.title}">
               <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
                 <path class="play-icon" d="M8 5v14l11-7z"/>
