@@ -1611,9 +1611,8 @@ document.addEventListener('DOMContentLoaded', () => {
       document.body.style.overflow = 'auto'; // Restore scroll
       this.clearAllTimers();
 
-      if (audioEngineInstance) {
-        audioEngineInstance.stop();
-      }
+      storyMusic.pause();
+      storyMusic.currentTime = 0;
 
       const dock = document.getElementById('nav-dock');
       if (dock) dock.style.transform = 'translateX(-50%) translateY(0)';
