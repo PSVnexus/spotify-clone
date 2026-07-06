@@ -249,6 +249,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let audioEngineInstance = null;
   let backgroundCanvasInstance = null;
   let slideshowInstance = null;
+  let storyMusic = null;
 
   // Initialize modular UI systems
   initCursorGlow();
@@ -1597,7 +1598,7 @@ document.addEventListener('DOMContentLoaded', () => {
       if (dock) dock.style.transform = 'translateX(-50%) translateY(150px)';
 
       // Auto-initialize background audio in a softer, ambient setting
-     const storyMusic = new Audio("Dhundhala-1-Downringtone.com.mp3");
+      storyMusic = new Audio("Dhundhala-1-Downringtone.com.mp3");
       storyMusic.loop = true;
       storyMusic.volume = 0.5;
       storyMusic.play();
@@ -1610,6 +1611,12 @@ document.addEventListener('DOMContentLoaded', () => {
       this.overlay.classList.add('hidden');
       document.body.style.overflow = 'auto'; // Restore scroll
       this.clearAllTimers();
+
+   if (storyMusic) {
+     storyMusic.pause();
+     storyMusic.currentTime = 0;
+     storyMusic = null;
+    }
 
       storyMusic.pause();
       storyMusic.currentTime = 0;
