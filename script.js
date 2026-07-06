@@ -73,7 +73,7 @@ const wrappedData = {
       artist: "Aditya Rikhari",
       duration: "2:33",
       file: "Paro - Aditya Rikhari _ UNPLG'd _ Hindi.mp3",
-      art: "album-art-5",
+      art: "cover paro.jpg",
       glow: "#39ff14",
       note: "Started as background noise and ended up as one of those songs I'd replay just for the chorus."
     }
