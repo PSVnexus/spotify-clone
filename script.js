@@ -53,7 +53,7 @@ const wrappedData = {
       artist: "Talwiinder",
       duration: "3:15",
       file: "Gallan 4-Downringtone.com.mp3",
-      art: "album-art-1",
+      art: "cover gallan 4.jpg",
       glow: "#bb86fc",
       note: "The song that got me properly into Talwiinder's discography. Once it hit my playlist, it never really left."
     },
