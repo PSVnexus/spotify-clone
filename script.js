@@ -1221,9 +1221,17 @@ document.addEventListener('DOMContentLoaded', () => {
     getAudioEngine().toggle();
   });
 
-  document.getElementById('synth-play-toggle').addEventListener('click', () => {
-    getAudioEngine().toggle();
-  });
+  let soundLabMusic = new Audio("Dhundhala-1-Downringtone.com.mp3");
+soundLabMusic.loop = true;
+soundLabMusic.volume = 0.5;
+
+document.getElementById('synth-play-toggle').addEventListener('click', () => {
+    if (soundLabMusic.paused) {
+        soundLabMusic.play();
+    } else {
+        soundLabMusic.pause();
+    }
+});
 
 
   /* ==========================================================================
