@@ -32,7 +32,7 @@ const wrappedData = {
       title: "Nuestra Canción",
       artist: "Monsieur Periné, Vicente García",
       duration: "4:20",
-      file: "assets/music/nuestra-cancion.mp3",
+      file: "Nuestra-Cancion-Brunog-Spanish-Song.mp3",
       art: "album-art-2",
       glow: "#7C6CFF",
       note: "Not even close to what the rest of my playlist sounds like, but it's the song I came back to more than any other this year."
