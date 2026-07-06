@@ -42,7 +42,7 @@ const wrappedData = {
       title: "Haseen",
       artist: "Talwiinder, NDS, Rippy Grewal",
       duration: "2:54",
-      file: "assets/music/haseen.mp3",
+      file: "haseen_talwiinder.mp3",
       art: "album-art-3",
       glow: "#00f2fe",
       note: "So close to the top spot. My default pick whenever I couldn't decide what to play next."
