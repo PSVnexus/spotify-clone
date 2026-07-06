@@ -2040,3 +2040,10 @@ p {
     display: none;
   }
 }
+.story-album-cover{
+    width:220px;
+    height:220px;
+    object-fit:cover;
+    border-radius:20px;
+    box-shadow:0 0 30px rgba(124,108,255,.5);
+}
