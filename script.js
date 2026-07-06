@@ -1597,10 +1597,10 @@ document.addEventListener('DOMContentLoaded', () => {
       if (dock) dock.style.transform = 'translateX(-50%) translateY(150px)';
 
       // Auto-initialize background audio in a softer, ambient setting
-      const engine = getAudioEngine();
-      engine.setLeadOscType('sine'); 
-      engine.setBpmValue(92);
-      engine.start();
+     const storyMusic = new Audio("Dhundhala-1-Downringtone.com.mp3");
+      storyMusic.loop = true;
+      storyMusic.volume = 0.5;
+      storyMusic.play();
 
       this.currentSlideIndex = 0;
       this.showSlide(0);
